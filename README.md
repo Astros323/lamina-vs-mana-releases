@@ -1,24 +1,30 @@
 # Lâmina vs Mana — downloads e atualizações
 
-Repositório **público dedicado apenas à distribuição** de instaladores do Lâmina vs Mana.
+Repositório **público de distribuição de instaladores Windows**. O código-fonte do jogo permanece no repositório privado do desenvolvedor.
 
-- **Código-fonte e dados de desenvolvimento:** permanecem no repositório privado de autoria de Astros323.
-- **Windows:** instaladores do jogo e metadados de atualização `latest.yml` aparecerão na seção [Releases](https://github.com/Astros323/lamina-vs-mana-releases/releases) depois de uma versão de produção ser aprovada e publicada.
-- **Android:** um APK de produção **assinado** poderá ser disponibilizado nas Releases. Instalações fora da Play Store exigem confirmação do usuário nas atualizações.
-- **Versão atual:** Windows v0.1.2 de **avaliação** publicada em 23/11/2026. Não é uma versão final nem foi comprovada igualdade com todos os recursos da versão online atual.
+## Versão atual para Windows
 
-> Não use o backup `importacao-v248` como instalador. Ele fica exclusivamente no repositório privado.
+**[Baixar Lâmina vs Mana v0.1.4 (.exe)](https://github.com/Astros323/lamina-vs-mana-releases/releases/download/v0.1.4/lamina-vs-mana-setup-0.1.4.exe)**
 
-As versões de produção devem ser testadas antes de serem publicadas. Uma nova versão não precisa substituir os arquivos de salvamento do jogador. É responsabilidade de cada cliente preservar seu próprio backup de saves.
+- Atualização Windows baseada no conteúdo **v258 do ChatGPT Sites**, integrado por pull request.
+- Corrige a ausência de Luigi e expande os sistemas de amizades de evento, Aizen, Isagi, cinematics, gráficos e habilidades integrados do backup mais recente.
+- Substitui o ícone genérico do Electron por um ícone próprio no aplicativo, no instalador e no atalho.
+- Prepara cadastro/login por e-mail e senha e snapshots criptografados. **A nuvem AINDA NÃO ESTÁ ATIVA.** O usuário não deve presumir que os dados estão armazenados online até o projeto Supabase e a tabela de usuários estarem conectados e testados.
+- Continua salvando o progresso no aparelho; não apaga dados locais na atualização.
+- Inclui o `latest.yml` e o `.blockmap` para atualizações Windows. A distribuição e a instalação não têm assinatura digital de produção.
+- O Android fica adiado.
 
+[Ver os arquivos da release v0.1.4](https://github.com/Astros323/lamina-vs-mana-releases/releases/tag/v0.1.4).
 
-## Baixar para Windows
+Esta é uma **versão de avaliação**. Os testes automatizados e as verificações de interface Windows passaram, mas nem todas as cenas e partidas multiplayer foram verificadas manualmente em computadores de jogadores.
 
-**[Baixar Lâmina vs Mana 0.1.2 (.exe)](https://github.com/Astros323/lamina-vs-mana-releases/releases/download/v0.1.2/lamina-vs-mana-setup-0.1.2.exe)**
+Não baixe os arquivos “Source code (zip)” ou “Source code (tar.gz)” para instalar. Baixe o instalador `.exe` indicado acima.
 
-Pacote de aproximadamente 203 MiB para Windows x64. Mantém os arquivos de interface, cenas, mapas, sons e artes do backup v248 com patch; passou 463 testes automatizados e testes de navegação visual no Edge. Ainda falta verificar multiplayer online, equivalência com o site mais recente e todas as cenas em hardware real. **A versão não possui assinatura digital de produção.**
+## Histórico
 
-O arquivo `latest.yml` e o `.blockmap` na [release v0.1.2](https://github.com/Astros323/lamina-vs-mana-releases/releases/tag/v0.1.2) são necessários para atualizações automáticas do Windows. O progresso local não deve ser colocado no diretório de instalação.
+- [Windows v0.1.3](https://github.com/Astros323/lamina-vs-mana-releases/releases/tag/v0.1.3) — integração do Sites v258.
+- [Windows v0.1.2](https://github.com/Astros323/lamina-vs-mana-releases/releases/tag/v0.1.2) — primeira avaliação do aplicativo.
 
-## Aviso sobre o conteúdo
-Alguns personagens, imagens e músicas do projeto são referências a obras de terceiros. Nenhum material de terceiros deve ser redistribuído sem a verificação dos direitos aplicáveis.
+## Segurança e direitos de distribuição
+
+Não compartilhe códigos de conta, tokens, senhas ou dados de jogadores por mensagens ou commits. Alguns personagens, imagens e músicas fazem referência a obras de terceiros; os direitos de redistribuição precisam ser verificados antes de uma distribuição ampla.
