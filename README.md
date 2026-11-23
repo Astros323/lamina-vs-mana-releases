@@ -4,8 +4,9 @@ Repositório **público de distribuição de instaladores Windows**. O código-f
 
 ## Versão atual para Windows
 
-**[Baixar Lâmina vs Mana v0.1.12 (.exe)](https://github.com/Astros323/lamina-vs-mana-releases/releases/download/v0.1.12/lamina-vs-mana-setup-0.1.12.exe)**
+**[Baixar Lâmina vs Mana v0.1.13 (.exe)](https://github.com/Astros323/lamina-vs-mana-releases/releases/download/v0.1.13/lamina-vs-mana-setup-0.1.13.exe)**
 
+- **Windows v0.1.13 (23/11/2026):** invocar Yoshi atualiza seu retrato no tabuleiro, barra de iniciativa e ficha; durante a incubação surge a arte do ovo e a imagem de Yoshi retorna ao chocar. Boo passa a exibir sua imagem corretamente e fica inalvejável para todos os inimigos, sendo excluído da seleção da IA; continua invulnerável e pode distribuir doces aos aliados. Build, testes e verificação de imagens no Edge do Windows aprovados; saves e contas preservados.
 - **Windows v0.1.12 (23/11/2026):** Wiki de itens, loot e sets reorganizada, com busca, filtros, ordenação, atalhos e grupos para acessórios únicos e conjuntos de três peças. Inclui Ovo da Amizade de Yoshi, braçadeira de Bachira, Taça de Isagi, Anel de Ainz, Hōgyoku e relíquia da Morte Espiral, além dos uniformes de Goku e Luigi. A braçadeira de Bachira só pode cair (25% por jogador) em vitória multiplayer com Bachira presente como inimigo na luta contra Isagi. Compilação, testes e verificação da Wiki no Windows aprovados. Mantém os saves locais e a sessão criptografada.
 - **Windows v0.1.11 (23/11/2026):** evento Isagi + Bachira com Bola do Chute Direto no tabuleiro, passes e golpes conjuntos, Metavision, Taça e armadura atualizados, nova braçadeira de Bachira, cinematics de ataque e ajuste da esquiva do Goku. Mantém as correções de login persistente, tela cheia e estreia de eventos apenas sob demanda. Build, testes automatizados e verificação da interface Windows aprovados. Os saves locais e o cofre de credenciais não são apagados pela atualização.
 - **Windows v0.1.10:** Login por e-mail é lembrado entre aberturas usando o cofre criptografado do Windows; o jogo inicia em tela cheia (F11 alterna); o endereço local é estável, evitando que dados do navegador interno comecem zerados a cada reinício; eventos Aizen, Luigi, Ainz, Goku, Morte Espiral e trailer não entram automaticamente numa fila ao abrir o aplicativo, mas continuam disponíveis pelos botões de replay.
@@ -21,7 +22,7 @@ Repositório **público de distribuição de instaladores Windows**. O código-f
 - Inclui o `latest.yml` e o `.blockmap` para atualizações Windows. A distribuição e a instalação não têm assinatura digital de produção.
 - O Android fica adiado.
 
-[Ver os arquivos da release v0.1.12](https://github.com/Astros323/lamina-vs-mana-releases/releases/tag/v0.1.12).
+[Ver os arquivos da release v0.1.12](https://github.com/Astros323/lamina-vs-mana-releases/releases/tag/v0.1.13).
 
 Esta é uma **versão de avaliação**. Os testes automatizados e as verificações de interface Windows passaram, mas nem todas as cenas e partidas multiplayer foram verificadas manualmente em computadores de jogadores.
 
