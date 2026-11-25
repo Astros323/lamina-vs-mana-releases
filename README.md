@@ -44,3 +44,8 @@ Não baixe os arquivos “Source code (zip)” ou “Source code (tar.gz)” par
 ## Segurança e direitos de distribuição
 
 Não compartilhe códigos de conta, tokens, senhas ou dados de jogadores por mensagens ou commits. Alguns personagens, imagens e músicas fazem referência a obras de terceiros; os direitos de redistribuição precisam ser verificados antes de uma distribuição ampla.
+
+
+## Guia do Lobby Global
+
+[Como atualizar, criar e entrar em salas multiplayer](GUIA-LOBBY.md) — instruções da próxima atualização; consulte a versão publicada antes de jogar.
